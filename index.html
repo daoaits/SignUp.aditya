@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <style>
+      *, html, body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(login.jpeg);
+    
+}
+
+.regist {
+    font-size: 25px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    border: 3px solid;
+    background: transparent;
+    align-items: center;
+    width: 35%;
+    text-align: center;
+    justify-content: center;
+}
+
+.isian {
+    line-height: 60px;
+    padding-bottom: 20px;
+}
+
+input {
+    padding-bottom: 15px;
+    align-items: start;
+    flex-direction: column;
+    width: 80%;
+}
+
+.regist1 {
+    margin-top: -5px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+
+button {
+    border: solid white;
+    color: white;
+    font-weight: bold;
+    padding: 12px;
+    margin: 10px 40px;
+    font-size: 17px;
+    width: 150px;
+    border-radius: 12px;
+    background: transparent;
+}
+
+.name, .email, .password, .confirmpassword {
+    border: 3px solid black;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}
+
+.nama:focus, .email:focus, .password:focus, .confirmpassword:focus {
+    width: 90%;
+    animation-name: colorChange;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+button:hover {
+    background: cyan;
+    border: 3px solid cyan;
+    transition: all .5s;
+}
+
+.login {
+    margin-top: -5px;
+    padding-bottom: 20px;
+}
+
+p {
+    font-size: 20px;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <table>
+            <div class="regist">
+                <h2>Sign Up</h2>
+            </div>
+
+            <div class="isian">
+                <input type="Name" name="Name" class="name" placeholder="Name">
+                <br>
+                <input type="Email;" name="Email" class="email" placeholder="Email">
+                <br>
+                <input type="Password" name="Password" class="password" placeholder="Password">
+                <br>
+                <input type="Confirm Password" name="Confirm Password" class="confirmpassword" placeholder="Confirm Password">
+            </div>
+
+            <div class="regist1">
+                <Button>Daftar Akun</Button>
+            </div>
+
+            <div class="login">
+                <p>Sudah Punya Akun?<a href="file:///C:/Users/intel/Desktop/login%20adit/index.html">Login</a></p>
+            </div>
+        </table>
+    </div>
+</body>
+</html>
